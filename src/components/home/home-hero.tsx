@@ -63,7 +63,7 @@ export function HomeHero() {
                   sizes="100vw"
                   className="w-full h-full object-cover"
                 />
-                <div className="overlay py-20 text-white p-4 w-full h-full bg-linear-to-r from-green-500/90 to-green-400/50">
+                <div className="absolute inset-0 z-10 py-20 px-4 text-white bg-gradient-to-r from-green-500/90 to-green-400/50">
                   <div className="container h-full content-center">
                     <h2 className="text-white text-3xl font-bold mb-4 max-w-96">
                       {slide.title}
